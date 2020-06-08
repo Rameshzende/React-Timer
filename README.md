@@ -29,12 +29,13 @@
            
            1) Open the cloned repository folder through the cmd 
                
-              Enter the following commands 
-              
-               cd /foldername 
-                  icd /MyApp Then enter 
+              Enter into the Project folder by 
+                      
+		      cd /ProjectfolderName
                
-               npx run-android (To run on Android)
+               the Start the application           
+               
+	       npx run-android (To run on Android)
                npx run-ios (to run on iso Device)
 
 ### Creating a new application
