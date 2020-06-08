@@ -34,6 +34,14 @@
 ### Creating a new application
 
 You can use React Native's built-in command line interface to generate a new project. Let's create a new React Native project called "AwesomeProject":
+
+Enter the following commndas 
+                     
+        npx react-native init AwesomeProject
+        cd /AwesomeProject 
+        npx run-android or npx react-native run-android (to run the android app)
+        npx run-ios or npx react-native run-ios (to run the ios app)
+
          
 
             
