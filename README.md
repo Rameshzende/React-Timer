@@ -72,6 +72,19 @@ You need to add the "missingDimensionStrategy" config for the 'react-native-came
                                       }
             
 
-### Importing React-native Camera 
+### Importing React-native Camera , Scanner 
     
-##react-natve camera,  #Its depedence packege if you want to install enter the following command 
+Importing React-native camrea and scanner depedences to in the Project Enter the followinf command 
+
+                                  npm install react-native-camera --save
+                                  react-native link react-native-camera or 
+                                  npx react-native link react-native-camera
+
+Scanner import
+                                  
+                                   npm install react-native-qrcode-scanner --save
+                                   react-native link react-native-qrcode-scanner or 
+                                   npx react-native link react-native-qrcode-scanner
+
+
+                  
