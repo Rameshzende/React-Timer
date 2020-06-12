@@ -55,8 +55,8 @@ In you Project you should add these two  "VIBRATION , CAMERA"  permission to you
          
 	                           PATH : android/app/src/main/AndroidManifest.xml 
                                    
-                                    <uses-permission android:name="android.permission.CAMERA"/>
-                                    <uses-permission android:name="android.permission.VIBRATE"/>
+                                  <uses-permission android:name="android.permission.CAMERA"/>
+                                  <uses-permission android:name="android.permission.VIBRATE"/>
 
 
 
@@ -71,3 +71,7 @@ You need to add the "missingDimensionStrategy" config for the 'react-native-came
                                             }
                                       }
             
+
+### Importing React-native Camera 
+    
+##react-natve camera,  #Its depedence packege if you want to install enter the following command 
