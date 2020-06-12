@@ -54,7 +54,10 @@ Enter the following commndas
 In you Project you should add these two  "VIBRATION , CAMERA"  permission to your AndroidManifest.xml. Its found in you Project path 
          
 	                           PATH : android/app/src/main/AndroidManifest.xml 
-                                   PErmission : <uses-permission android:name="android.permission.CAMERA"/>
-                                                <uses-permission android:name="android.permission.VIBRATE"/>
+                                 Permission : <uses-permission android:name="android.permission.CAMERA"/>
+                                              <uses-permission android:name="android.permission.VIBRATE"/>
 
+
+
+You need to add the "missingDimensionStrategy" config for the 'react-native-camera' setting to 'general', this should be found in your android/app/build.gradle add the following:
             
