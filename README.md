@@ -53,6 +53,8 @@ Enter the following commndas
 
 In you Project you should add these two  "VIBRATION , CAMERA"  permission to your AndroidManifest.xml. Its found in you Project path 
          
-	                           android/app/src/main/AndroidManifest.xml 
+	                           PATH : android/app/src/main/AndroidManifest.xml 
+                                   PErmission : <uses-permission android:name="android.permission.CAMERA"/>
+                                                <uses-permission android:name="android.permission.VIBRATE"/>
 
             
