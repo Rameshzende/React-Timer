@@ -49,6 +49,10 @@ Enter the following commndas
         npx run-android or npx react-native run-android (to run the android app)
         npx run-ios or npx react-native run-ios (to run the ios app)
 
+### Android permission Access and Camera Depedence Importing 
+
+In you Project you should add these two  "VIBRATION , CAMERA"  permission to your AndroidManifest.xml. Its found in you Project path 
          
+	                           android/app/src/main/AndroidManifest.xml 
 
             
